@@ -1,0 +1,16 @@
+.principal{
+	.contenedor{
+		display: flex;
+		.producto{
+			.galeria{
+				display: flex;
+				article{
+					img{
+						width: 100%;
+						display: flex;
+					}
+				}
+			}
+		}
+	}
+}

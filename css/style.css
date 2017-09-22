@@ -1,0 +1,253 @@
+@import url("http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css");
+@import url("https://fonts.googleapis.com/css?family=Rambla:400,700|Sanchez");
+.brand .contenedor {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  background-color: #8EC641;
+  text-transform: uppercase; }
+  .brand .contenedor button {
+    background: none;
+    font-size: 35px;
+    border: 1px solid #8EC641;
+    color: white;
+    display: none; }
+  .brand .contenedor .social ul {
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px; }
+    .brand .contenedor .social ul a {
+      font-size: 20px;
+      margin: 0 10px;
+      text-decoration: none;
+      color: white;
+      font-family: "Rambla", sans-serif;
+      font-weight: 700; }
+      .brand .contenedor .social ul a:hover {
+        color: #ea9010; }
+
+.logo {
+  width: 120px;
+  display: flex;
+  margin-left: 20px; }
+  .logo img {
+    width: 80%; }
+
+.newsletter .contenedor {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background: #ea9010; }
+
+header .contenedor img {
+  display: flex; }
+
+.newsletter .social {
+  display: flex;
+  flex-direction: row; }
+  .newsletter .social a {
+    text-decoration: none;
+    font-size: 30px;
+    margin: 0 10px;
+    color: white; }
+  .newsletter .social span {
+    border: 2px solid white;
+    border-radius: 20%;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px; }
+    .newsletter .social span:hover {
+      background-color: white;
+      color: #ea9010; }
+.newsletter .formu h2 {
+  font-size: 20px;
+  font-family: "Rambla", sans-serif;
+  font-weight: 700;
+  margin-top: 10px;
+  color: white; }
+.newsletter .formu input {
+  width: 100%;
+  height: 30px;
+  margin: 8px 0;
+  border: 1px solid white;
+  border-radius: 4%;
+  box-sizing: border-box; }
+.newsletter .formu button {
+  width: 50%;
+  padding: 3px;
+  border: 2px solid white;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background: #ea9010;
+  color: white;
+  font-family: "Rambla", sans-serif;
+  font-weight: 700; }
+  .newsletter .formu button:hover {
+    background-color: white;
+    color: #ea9010; }
+
+.principal .contenedor {
+  display: flex; }
+  .principal .contenedor .producto .galeria {
+    display: flex; }
+    .principal .contenedor .producto .galeria article img {
+      width: 100%;
+      display: flex; }
+
+footer .contenedor {
+  display: flex;
+  justify-content: space-around;
+  background-color: #8EC641;
+  padding: 10px 0; }
+  footer .contenedor h2 {
+    font-family: "Rambla", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 10px 0;
+    color: white;
+    letter-spacing: 1px; }
+  footer .contenedor ul li {
+    padding: 5px 0;
+    font-family: "Sanchez", serif;
+    font-weight: 700;
+    font-size: 15px; }
+    footer .contenedor ul li a {
+      text-decoration: none;
+      color: white; }
+      footer .contenedor ul li a:hover {
+        color: #ea9010; }
+
+.copy .contenedor {
+  display: flex;
+  justify-content: center;
+  background-color: #8EC641;
+  color: white;
+  font-family: "Sanchez", serif; }
+
+.services .contenedor {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: url(../img/comida4.jpg) no-repeat -200px 0; }
+  .services .contenedor .sidebar {
+    width: 600px; }
+    .services .contenedor .sidebar img {
+      width: 100%;
+      display: flex; }
+  .services .contenedor ul {
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin-left: 90px;
+    margin-bottom: 40px; }
+    .services .contenedor ul h2 {
+      font-size: 40px;
+      font-family: "Rambla", sans-serif;
+      font-weight: 700;
+      margin: 20px 0; }
+    .services .contenedor ul h3 {
+      font-size: 30px;
+      font-family: "Rambla", sans-serif;
+      font-weight: 700;
+      text-align: center;
+      margin: 20px 0; }
+
+.newsletter2 .contenedor {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background: #8EC641; }
+
+.newsletter2 .social {
+  display: flex;
+  flex-direction: row; }
+  .newsletter2 .social a {
+    text-decoration: none;
+    font-size: 30px;
+    margin: 0 10px;
+    color: white; }
+  .newsletter2 .social span {
+    border: 2px solid white;
+    border-radius: 20%;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px; }
+    .newsletter2 .social span:hover {
+      background-color: white;
+      color: #8EC641; }
+.newsletter2 .formu h2 {
+  font-size: 20px;
+  font-family: "Rambla", sans-serif;
+  font-weight: 700;
+  margin-top: 10px;
+  color: white; }
+.newsletter2 .formu input {
+  width: 100%;
+  height: 30px;
+  margin: 8px 0;
+  border: 1px solid white;
+  border-radius: 4%;
+  box-sizing: border-box; }
+.newsletter2 .formu button {
+  width: 50%;
+  padding: 3px;
+  border: 2px solid white;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background: #8EC641;
+  color: white;
+  font-family: "Rambla", sans-serif;
+  font-weight: 700; }
+  .newsletter2 .formu button:hover {
+    background-color: white;
+    color: #8EC641; }
+
+.footer2 .contenedor {
+  display: flex;
+  justify-content: space-around;
+  background-color: #ea9010;
+  padding: 10px 0; }
+  .footer2 .contenedor h2 {
+    font-family: "Rambla", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 10px 0;
+    color: white;
+    letter-spacing: 1px; }
+  .footer2 .contenedor ul li {
+    padding: 5px 0;
+    font-family: "Sanchez", serif;
+    font-weight: 700;
+    font-size: 15px; }
+    .footer2 .contenedor ul li a {
+      text-decoration: none;
+      color: white; }
+      .footer2 .contenedor ul li a:hover {
+        color: #8EC641; }
+
+.copy2 .contenedor {
+  display: flex;
+  justify-content: center;
+  background-color: #ea9010;
+  color: white; }
+
+body {
+  background-color: #c0c781; }
+
+.contenedor {
+  width: 80%;
+  margin: auto;
+  overflow: hidden; }
+
+/*# sourceMappingURL=style.css.map */

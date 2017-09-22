@@ -1,0 +1,82 @@
+.newsletter .contenedor{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	background: $color-separador;
+
+}
+
+header{
+	.contenedor{
+			img{
+				display: flex;
+			}
+		}
+}
+
+.newsletter{
+	.social{
+		display: flex;
+		flex-direction: row;
+
+		a{
+			text-decoration: none;
+			font-size: 30px;
+			margin: 0 10px;
+			color: $color-typo;
+		}
+
+		span{
+			border: 2px solid $color-typo;
+			border-radius: 20%;
+			height: 40px;
+			width: 40px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin: 0 5px;
+
+			&:hover{
+				background-color: $color-typo;
+				color: $color-separador;
+			}
+		}
+	}
+
+	.formu{
+		h2{
+			font-size: 20px;
+			font-family: $font-sec;
+			font-weight: $bold;
+			margin-top: 10px;
+			color: $color-typo;
+		}
+
+		input{
+			width: 100%;
+			height: 30px;
+			margin: 8px 0;
+			border: 1px solid $color-typo;
+			border-radius: 4%;
+			box-sizing: border-box;
+		}
+
+		button{
+			width: 50%;
+			padding: 3px;
+			border: 2px solid $color-typo;
+			border-radius: 4px;
+			box-sizing: border-box;
+			background: $color-separador;
+			color: $color-typo;
+			font-family: $font-sec;
+			font-weight: $bold;
+
+			&:hover{
+				background-color: $color-typo;
+				color: $color-separador;
+			}
+		}
+	}
+}
+

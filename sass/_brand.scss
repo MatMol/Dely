@@ -1,0 +1,48 @@
+.brand{
+	.contenedor{
+		display: flex;
+		align-items: center;
+		align-content: center;
+		justify-content: space-between;
+		background-color: $color-principal;
+		text-transform: uppercase;
+
+		button{
+			background: none;
+			font-size: 35px;
+			border: 1px solid $color-principal;
+			color: $color-typo;
+			display: none;
+		}
+
+		.social{
+			ul{
+			display: flex;
+			flex-direction: row;
+			margin-right: 20px;
+				a{
+					font-size: 20px;
+					margin: 0 10px;
+					text-decoration: none;
+					color: $color-typo;
+					font-family: $font-sec;
+					font-weight: $bold;
+
+					&:hover{
+						color: $color-separador;
+					}
+				}
+			}
+		}
+	}
+}
+
+.logo{
+	width: 120px;
+	display: flex;
+	margin-left: 20px;
+
+	img{
+		width: 80%;
+	}
+}

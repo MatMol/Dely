@@ -1,0 +1,18 @@
+@import url('http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css');
+@import url('https://fonts.googleapis.com/css?family=Rambla:400,700|Sanchez');
+@import "variables";
+@import "brand";
+@import "newsletter";
+@import "principal";
+@import "footer";
+@import "locales";
+
+body{
+	background-color: #c0c781;
+}
+
+.contenedor{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}

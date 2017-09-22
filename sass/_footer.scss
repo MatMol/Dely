@@ -1,0 +1,45 @@
+footer{
+	.contenedor{
+		display: flex;
+		justify-content: space-around;
+		background-color: $color-principal;
+		padding: 10px 0;
+		h2{
+			font-family: $font-sec;
+			font-weight: $bold;
+			font-size: 18px;
+			text-transform: uppercase;
+			padding: 10px 0;
+			color: $color-typo;
+			letter-spacing: 1px;
+		}
+
+		ul{
+			li{
+				padding: 5px 0;
+				font-family: $font-titulo;
+				font-weight: $bold;
+				font-size: 15px;
+
+				a{
+					text-decoration: none;
+					color: $color-typo;
+
+					&:hover{
+						color: $color-separador;
+					}
+				}
+			}
+		}
+	}
+}
+
+.copy{
+	.contenedor{
+		display: flex;
+		justify-content: center;
+		background-color: $color-principal;
+		color: $color-typo;
+		font-family: $font-titulo;
+	}
+}
